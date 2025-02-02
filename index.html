@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Bookstore</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f1e4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #6d4c41;
+            padding: 15px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #8d6e63;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        h1 {
+            color: #4e342e;
+            text-decoration: underline;
+        }
+
+        p {
+            font-family: 'Verdana', sans-serif;
+            line-height: 1.6;
+            text-align: justify;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 60%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+            color: #5d4037;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: 2px solid #4e342e;
+            background-color: white;
+            color: #4e342e;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #4e342e;
+            color: white;
+        }
+
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #4e342e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #6d4c41;
+            color: white;
+        }
+
+        form {
+            margin: 20px auto;
+            width: 320px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input, button {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4e342e;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #6d4c41;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Elegant Bookstore</header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h1>Welcome to Elegant Bookstore</h1>
+    <p>Discover a vast collection of books across various genres, including fiction, non-fiction, science, history, and more. Whether you are a book lover, student, or researcher, our bookstore is designed to cater to your literary needs with an extensive range of titles at affordable prices.</p>
+    
+    <div class="image-container">
+        <img src="books.jpg" alt="Books on a shelf">
+        <div class="caption">A cozy reading corner filled with the best books.</div>
+    </div>
+    
+    <p>Click the button below to explore our latest arrivals:</p>
+    <button class="button">Browse Books</button>
+
+    <p>Here are some of our popular categories:</p>
+    <table>
+        <tr>
+            <th>Fiction</th>
+            <th>Non-Fiction</th>
+            <th>Academic</th>
+        </tr>
+        <tr>
+            <td>Thrillers</td>
+            <td>Biographies</td>
+            <td>Mathematics</td>
+        </tr>
+        <tr>
+            <td>Romance</td>
+            <td>Self-Help</td>
+            <td>Science</td>
+        </tr>
+    </table>
+    
+    <p>Subscribe to receive updates on new arrivals and exclusive deals:</p>
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+
+</html>
